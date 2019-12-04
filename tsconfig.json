@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2015"],
+    "esModuleInterop": true,
+    "paths": { "*": ["node_modules/*"] },
+    "target": "es2015",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "compileOnSave": true,
+  "references": []
+}

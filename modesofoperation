@@ -1,0 +1,15 @@
+// server is responsible for handling all store request.
+endpoints available
+-- products
+-- categories
+-- index
+-- cart
+-- 404 page
+-- login
+-- logout
+
+// all themes are provided with store details for all request,
+data provided is limited to some paths in the stores document
+
+// every theme would have an opportunity to a jsonforms document,
+this would be used in collecting custom data fields from theme admins

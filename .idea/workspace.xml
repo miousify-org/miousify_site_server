@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f37e2c1-c8b8-4c15-b29e-4640fe7a9756" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/defaultTheme/src/THEMESTRUCTURE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miousifyAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modesofoperation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onBuild.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/account.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/transaction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templateReq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme-provisions/StoreTemplateProvisions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/miousifyAPI.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!block;n#CartItemInterface#0" />
+                <element signature="n#!!block;n#userLoginInterface#0" />
+                <element signature="n#!!block;n#newuserInterface#0" />
+                <element signature="n#!!block;n#miousifyUser#0" />
+                <element signature="n#ProductBucket#0" />
+                <element signature="n#CategoriesBucket#0" />
+                <element signature="n#CustomerBucket#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DOCKERFILE" />
+        <option value="$PROJECT_DIR$/DOCKERIGNORE" />
+        <option value="$PROJECT_DIR$/routes/auth.js" />
+        <option value="$PROJECT_DIR$/../magnet/rest-api/src/database/models/store/Store.js" />
+        <option value="$PROJECT_DIR$/data/index.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/theme/configuration/settings-ui.json" />
+        <option value="$PROJECT_DIR$/templateReq.js" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/routes/transactions.js" />
+        <option value="$PROJECT_DIR$/routes/account.js" />
+        <option value="$PROJECT_DIR$/controllers/account.ts" />
+        <option value="$PROJECT_DIR$/declaration.d.ts" />
+        <option value="$PROJECT_DIR$/routes/index..ts" />
+        <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/init.js" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/defaultTheme/singleproduct.html" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/snippets/productSchema.html" />
+        <option value="$PROJECT_DIR$/lib/miousifyAPI.js" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/routes/account.ts" />
+        <option value="$PROJECT_DIR$/routes/transaction.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/onBuild.ts" />
+        <option value="$PROJECT_DIR$/modesofoperation" />
+        <option value="$PROJECT_DIR$/template/generic-template/src/config/config-ui-jsonformsui.json" />
+        <option value="$PROJECT_DIR$/template/generic-template/src/config/config-ui-schema.json" />
+        <option value="$PROJECT_DIR$/template/generic-template/src/config/config-ui-default-data.json" />
+        <option value="$PROJECT_DIR$/template/generic-template/src/config/README.md" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/singleproduct.html" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/signup.html" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/sigin.html" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/contact.html" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/about.html" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/THEMESTRUCTURE.md" />
+        <option value="$PROJECT_DIR$/defaultTheme/src/layouts/theme.html" />
+        <option value="$PROJECT_DIR$/provisions.js" />
+        <option value="$PROJECT_DIR$/Store-Template-Provisions.ts" />
+        <option value="$PROJECT_DIR$/StoreTemplateProvisions.ts" />
+        <option value="$PROJECT_DIR$/theme-provisions/StoreTemplateProvisions.ts" />
+        <option value="$PROJECT_DIR$/routes/product.ts" />
+        <option value="$PROJECT_DIR$/init.ts" />
+        <option value="$PROJECT_DIR$/routes/index.ts" />
+        <option value="$PROJECT_DIR$/lib/miousifyAPI.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/magnet-store-server.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/jsonSchemas.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="211" />
+    <option name="y" value="71" />
+    <option name="width" value="958" />
+    <option name="height" value="635" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="magnet-store-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magnet-store-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magnet-store-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magnet-store-server" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/theme-provisions" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/defaultTheme/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/defaultTheme" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="testdockeronwebstorm" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f37e2c1-c8b8-4c15-b29e-4640fe7a9756" name="Default Changelist" comment="" />
+      <created>1566589009851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566589009851</updated>
+      <workItem from="1566589011786" duration="2199000" />
+      <workItem from="1566811590565" duration="10992000" />
+      <workItem from="1567783140710" duration="657000" />
+      <workItem from="1567869715619" duration="67000" />
+      <workItem from="1569017128069" duration="144000" />
+      <workItem from="1569135056248" duration="687000" />
+      <workItem from="1569158059100" duration="3004000" />
+      <workItem from="1569232580838" duration="21886000" />
+      <workItem from="1569331789580" duration="1244000" />
+      <workItem from="1569409571620" duration="54000" />
+      <workItem from="1570234081388" duration="791000" />
+      <workItem from="1575381710249" duration="1274000" />
+      <workItem from="1575447926548" duration="166000" />
+      <workItem from="1575449175687" duration="11274000" />
+      <workItem from="1575463126188" duration="423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54862000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="1" sideWeight="0.11445783" side_tool="true" weight="0.2258772" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.88554215" visible="true" weight="0.1707132" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" weight="0.35992908" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.05" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Google Cloud Storage" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="Terminal" order="4" side_tool="true" weight="0.46358117" />
+      <window_info active="true" anchor="right" id="Run" order="5" side_tool="true" visible="true" weight="0.3983308" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="1" sideWeight="0.11445783" side_tool="true" weight="0.2258772" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.88554215" visible="true" weight="0.18512899" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" weight="0.35992908" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.05" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Google Cloud Storage" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="Terminal" order="4" side_tool="true" weight="0.46363637" />
+      <window_info anchor="right" id="Run" order="5" side_tool="true" weight="0.21969697" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/routes/product.js.map" />
+        <option value="$PROJECT_DIR$/routes/index.js.map" />
+        <option value="$PROJECT_DIR$/routes/transaction.js" />
+        <option value="$PROJECT_DIR$/routes/transaction.js.map" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/Store-Template-Provisions.js.map" />
+        <option value="$PROJECT_DIR$/routes/product.js" />
+        <option value="$PROJECT_DIR$/routes/account.js" />
+        <option value="$PROJECT_DIR$/routes/account.js.map" />
+        <option value="$PROJECT_DIR$/Store-Template-Provisions.js" />
+        <option value="$PROJECT_DIR$/init.js.map" />
+        <option value="$PROJECT_DIR$/onBuild.js.map" />
+        <option value="$PROJECT_DIR$/init.js" />
+        <option value="$PROJECT_DIR$/onBuild.js" />
+        <option value="$PROJECT_DIR$/lib/miousifyAPI.js.map" />
+        <option value="$PROJECT_DIR$/lib/miousifyAPI.js" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/assets/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/nunjucks/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/config/ui.json" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/snippets/productSchema.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/snippets/storeSchema.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/snippets/businessSchema.html" />
+    <entry file="file://$PROJECT_DIR$/routes/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/miousifyAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/transaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="115" lean-forward="true" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/transaction.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/product.ts" />
+    <entry file="file://$PROJECT_DIR$/controllers/account.ts" />
+    <entry file="file://$PROJECT_DIR$/routes/account.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js" />
+    <entry file="file://$PROJECT_DIR$/SRS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="277">
+            <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration.d.ts" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateReq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onBuild.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modesofoperation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/generic-template/src/config/config-ui-jsonformsui.json" />
+    <entry file="file://$PROJECT_DIR$/template/generic-template/src/config/config-ui-schema.json" />
+    <entry file="file://$PROJECT_DIR$/template/generic-template/src/config/README.md" />
+    <entry file="file://$PROJECT_DIR$/template/generic-template/src/config/config-ui-default-data.json" />
+    <entry file="file://$PROJECT_DIR$/template/generic-template/src/locale/en-us.json" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/signup.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/product.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/sigin.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/products.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/contact.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/checkout.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/cart.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/about.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/globals/object.html" />
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/THEMESTRUCTURE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/layouts/theme.html" />
+    <entry file="file://$PROJECT_DIR$/provisions.js" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultTheme/src/includes/uikit.html" />
+    <entry file="file://$PROJECT_DIR$/theme-provisions/StoreTemplateProvisions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/product.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/miousifyAPI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!block;n#CartItemInterface#0" />
+            <element signature="n#!!block;n#userLoginInterface#0" />
+            <element signature="n#!!block;n#newuserInterface#0" />
+            <element signature="n#!!block;n#miousifyUser#0" />
+            <element signature="n#ProductBucket#0" />
+            <element signature="n#CategoriesBucket#0" />
+            <element signature="n#CustomerBucket#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
