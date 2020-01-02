@@ -13,18 +13,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const miousifyAPI_1 = require("./lib/miousifyAPI");
 const index_1 = __importDefault(require("./routes/index"));
-//import shelljs from "shelljs"
-// shelljs.cd("./template");
-//
-// const GENERIC_THEME_NAME= "generic-template"
-//
-// const DEFAULT_THEME_URL= `https://github.com/miousify/${GENERIC_THEME_NAME}/archive/master.zip`
-//
-// const DEFUAL_THEME_GIT_URL= `https://github.com/miousify/${GENERIC_THEME_NAME}.git`
-//
-// shelljs.rm("-rf",GENERIC_THEME_NAME)
-//
-// shelljs.exec(`git clone ${DEFUAL_THEME_GIT_URL}`)
 function initializeServer() {
     return __awaiter(this, void 0, void 0, function* () {
         let mda = new miousifyAPI_1.MiousifyDataAPI();
@@ -38,6 +26,5 @@ function initializeServer() {
     });
 }
 initializeServer().then(() => {
-    console.log("server loaded");
 });
 //# sourceMappingURL=init.js.map

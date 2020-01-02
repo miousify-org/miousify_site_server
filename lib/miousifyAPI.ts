@@ -35,9 +35,8 @@ interface MAPIInterface {
 }
 
 let STORE_ID = process.env.STORE_ID  || "5dc2ce6f9434ab34c6b4ce72";
-STORE_ID= "5dc2ce6f9434ab34c6b4ce72";
+
 let MIOUSIFY_REST_API= process.env.MIOUSIFY_REST_API  || `http://localhost:5000`;
-MIOUSIFY_REST_API= `http://localhost:5000`;
 
 const APIAxiousInstance = axios.create({
     baseURL:`${MIOUSIFY_REST_API}/api/store/${STORE_ID}`,

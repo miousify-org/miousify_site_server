@@ -2,46 +2,48 @@ import express from "express";
 import path from "path"
 import nunJunks from "nunjucks";
 import bodyParser from "body-parser";
-import expressSession from "express-session";
 
 import loadJsonFile from "load-json-file"
-import helmet from "helmet"
+// import helmet from "helmet"
 import MAPI from "../lib/miousifyAPI"
 
 /*Get App Routers here
 * */
-import account from "./account";
 
+import account from "./account";
 import ProductRoute from "./product";
 import AccountRoute from "./account";
 import TransactionRoute from "./transaction";
 
 export default  class MainApp {
+
     APP= express();
     THEME_PATH: string;
     APP_HOME: string;
     nunjucksEnv;
     nunjucksInstance;
+
     private MIOUSIFY_API: MAPI;
 
     constructor(){
+
+        this.APP_HOME= process.env.APP_HOME || "/home/joshuajohnson/projects/magnet-store-server";
 
         const TEMP_THEME_LOCALTION= '/home/joshuajohnson/projects/m-emerald/src';
 
         // initialize miousify appi for data collection related to this store
         this.MIOUSIFY_API=  new MAPI();
 
-        this.APP_HOME= "/home/joshuajohnson/projects/magnet-store-server";
+        this.THEME_PATH=path.join(this.APP_HOME, "defaultTheme", "m_emerald","src");
 
-        this.THEME_PATH=path.join(this.APP_HOME, "defaultTheme", "/m-emerald");
-
-        this.THEME_PATH= TEMP_THEME_LOCALTION;
+        // this.THEME_PATH= TEMP_THEME_LOCALTION;
 
         this.init();
     }
 
     // load data available to store site templates
     private  async initGlobals (){
+        // letter implement data from store configuration
         let uiData= await loadJsonFile(path.join(this.THEME_PATH, "config", "ui.json"));
         let localData= await loadJsonFile(path.join(this.THEME_PATH, "locale", "en-us.json"));
         let storeData= await this.MIOUSIFY_API.getStoreDetails()
@@ -76,7 +78,7 @@ export default  class MainApp {
 
     private setupPrebuiltMiddlewares(){
         // initialize due middlewares here
-        this.APP.use(helmet())
+        // this.APP.use(helmet())
         this.APP.use(bodyParser.json({ }))
         this.APP.use(bodyParser.urlencoded())
     }
@@ -111,8 +113,9 @@ export default  class MainApp {
     }
 
     private listen(){
-        this.APP.listen(4000,function () {
-            console.log("Listening on port 4000")
+        this.APP.listen(process.env.PORT || 4000,()=> {
+            console.log("Listening")
+            console.log(this.APP.get("PORT"));
         })
     }
 

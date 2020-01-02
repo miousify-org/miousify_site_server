@@ -16,7 +16,7 @@ const path_1 = __importDefault(require("path"));
 const nunjucks_1 = __importDefault(require("nunjucks"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const load_json_file_1 = __importDefault(require("load-json-file"));
-const helmet_1 = __importDefault(require("helmet"));
+// import helmet from "helmet"
 const miousifyAPI_1 = __importDefault(require("../lib/miousifyAPI"));
 const product_1 = __importDefault(require("./product"));
 const account_1 = __importDefault(require("./account"));
@@ -24,17 +24,18 @@ const transaction_1 = __importDefault(require("./transaction"));
 class MainApp {
     constructor() {
         this.APP = express_1.default();
+        this.APP_HOME = process.env.APP_HOME || "/home/joshuajohnson/projects/magnet-store-server";
         const TEMP_THEME_LOCALTION = '/home/joshuajohnson/projects/m-emerald/src';
         // initialize miousify appi for data collection related to this store
         this.MIOUSIFY_API = new miousifyAPI_1.default();
-        this.APP_HOME = "/home/joshuajohnson/projects/magnet-store-server";
-        this.THEME_PATH = path_1.default.join(this.APP_HOME, "defaultTheme", "/m-emerald");
-        this.THEME_PATH = TEMP_THEME_LOCALTION;
+        this.THEME_PATH = path_1.default.join(this.APP_HOME, "defaultTheme", "m_emerald", "src");
+        // this.THEME_PATH= TEMP_THEME_LOCALTION;
         this.init();
     }
     // load data available to store site templates
     initGlobals() {
         return __awaiter(this, void 0, void 0, function* () {
+            // letter implement data from store configuration
             let uiData = yield load_json_file_1.default(path_1.default.join(this.THEME_PATH, "config", "ui.json"));
             let localData = yield load_json_file_1.default(path_1.default.join(this.THEME_PATH, "locale", "en-us.json"));
             let storeData = yield this.MIOUSIFY_API.getStoreDetails();
@@ -65,7 +66,7 @@ class MainApp {
     }
     setupPrebuiltMiddlewares() {
         // initialize due middlewares here
-        this.APP.use(helmet_1.default());
+        // this.APP.use(helmet())
         this.APP.use(body_parser_1.default.json({}));
         this.APP.use(body_parser_1.default.urlencoded());
     }
@@ -93,8 +94,9 @@ class MainApp {
         this.listen();
     }
     listen() {
-        this.APP.listen(4000, function () {
-            console.log("Listening on port 4000");
+        this.APP.listen(process.env.PORT || 4000, () => {
+            console.log("Listening");
+            console.log(this.APP.get("PORT"));
         });
     }
 }

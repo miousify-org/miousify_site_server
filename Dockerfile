@@ -1,17 +1,19 @@
-FROM alpine
-
-WORKDIR app
-
-COPY package.json /app
-
-CMD ["npm","install"]
-
-COPY . /app
-
-EXPOSE 80
+FROM node
 
 MAINTAINER Joshua Johnson
 
-ENV name=e
+WORKDIR app
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . ./
+
+EXPOSE 80
+
+ENTRYPOINT ['./entrypoint.sh']
+
+
 
 
